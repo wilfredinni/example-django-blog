@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+<div class="container">
+    <br>
+    <h2>This is the result of your search</h2>
+    <br>
+    {% for post in queryset %}
+        <a href="{{ post.get_absolute_url }}">{{ post.title }}</a>
+        <br>
+    {% endfor %}
+    <br>
+</div>
+
+{% endblock content %}

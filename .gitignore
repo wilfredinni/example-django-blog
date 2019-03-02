@@ -1,0 +1,11 @@
+static_root
+.vscode
+pyproject.toml
+poetry.lock
+.DS_Store
+src/db.sqlite3
+src/blog/__pycache__
+src/marketing/__pycache__
+src/marketing/migrations/__pycache__
+src/posts/__pycache__
+src/posts/migrations/__pycache__
