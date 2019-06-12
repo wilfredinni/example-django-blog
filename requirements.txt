@@ -2,7 +2,7 @@ appdirs==1.4.3
 attrs==18.2.0
 black==18.9b0
 Click==7.0
-Django==2.1.7
+Django==2.1.9
 django-tinymce4-lite==1.7.4
 entrypoints==0.3
 flake8==3.7.7

@@ -9,3 +9,4 @@ src/marketing/__pycache__
 src/marketing/migrations/__pycache__
 src/posts/__pycache__
 src/posts/migrations/__pycache__
+env
